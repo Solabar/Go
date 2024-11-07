@@ -17,7 +17,7 @@ type ConfigurableSleeper struct {
 }
 
 const finalWord = "Go!"
-const countdownStart = 10
+const countdownStart = 3
 
 func Countdown(out io.Writer, sleeper Sleeper) {
 	for i := countdownStart; i > 0; i-- {
